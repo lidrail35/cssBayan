@@ -1,3 +1,40 @@
 body {
 	background-color: blueviolet;
 }
+
+.container {
+	background-color: brown;
+	width: 80%;
+	margin: auto;
+}
+
+span {
+	display: none;
+}
+
+.container:hover span {
+	display: inline-block;
+}
+
+.container:hover > .key > input:checked ~span {
+	transform: rotate(45deg);
+}
+
+.key > div {
+	height: 0;
+	font-size:0;
+	background-color: blue;
+	transition: height 0.25s linear;
+}
+
+.key > input:checked ~div {
+  font-size: 1rem;
+	height: 5rem;
+	transition: height 0.25s linear;
+}
+
+.key > input:hover ~div {
+	font-size: 1rem;
+	height: 5rem;
+	transition: height 0.25s linear;
+}
