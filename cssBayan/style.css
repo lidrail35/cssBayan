@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Noticia";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./NoticiaText-Regular.ttf"); 
+ }
+
 * {
   margin: 0;  
   padding: 0;
@@ -6,18 +13,22 @@
 }
 
 .body {
+  font-family: "Noticia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62.5%;
 	background-color: blueviolet;
 }
 
 .container {
 	background-color: brown;
-	width: 80%;
+	width: 70%;
 	margin: auto;
 }
 
 .key {
   display: block;
-  background-color: rgb(219, 219, 219);
+  background-color: rgb(231, 231, 231);
   cursor: pointer;
 }
 
@@ -61,7 +72,7 @@
 
 .key:hover .mem-content,
 .key-check:checked +.mem-content {
-  height: 5rem;
+  height: 15rem;
   font-size: 1rem;
   transition: all 0.3s linear;
 }
@@ -69,7 +80,7 @@
 .mem-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .key:active .key-header {
