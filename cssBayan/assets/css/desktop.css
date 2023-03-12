@@ -1,0 +1,29 @@
+@media (max-width: 1920px) {
+
+  .main {
+    width: 60%;
+    padding: 0;
+  }
+
+  .main__header {
+    font-size: 6vw;
+  } 
+
+  .key-header {
+    font-size: 5vw;
+  }   
+
+  .key-check:checked +.mem-content {
+    height: 50vw;
+  }  
+
+  @media (hover: hover) {
+   
+    .key:hover .mem-content {
+      height: 50vw;
+    }
+  
+  }
+
+
+}

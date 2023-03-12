@@ -1,0 +1,11 @@
+@media (max-width: 320px) {
+  
+  .main__header {
+    font-size: 7vw;
+  } 
+
+  .key-header {
+    font-size: 5vw;
+  } 
+  
+}
