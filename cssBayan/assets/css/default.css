@@ -86,13 +86,13 @@
   color: #000000;
 }
 
-.key:active .key-header {
-  color: blue !important;
-}
-
+.key:active .key-header, 
+.key:active .key-header .mem-icon,
 .key:active .mem-content .mem-img {
+  color: blue !important;
   opacity: 0.8;
 }
+
 
 @media (hover: none) {
 
