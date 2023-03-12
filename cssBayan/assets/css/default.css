@@ -17,14 +17,14 @@
   font-family: "Noticia", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
-  background-color: rgb(231, 231, 231);
+  background-color:#e7e7e7;
 }
 
 .main {
   width: 95%;
   padding: 2% 0;
   margin: auto;
-  background-color: rgb(231, 231, 231);
+  background-color: #e7e7e7;
   border-radius: 1vw;
 }
 
@@ -41,7 +41,7 @@
 .key {
   display: block;
   padding-bottom: 2vw;
-  background-color: rgb(231, 231, 231);
+  background-color: #e7e7e7;
   border-top: 0.2vw solid #000000;
 }
 
@@ -53,13 +53,13 @@
   width: 95%;
   margin: auto;
   padding: 1vh;
-  color: blue;
+  color: #0000ff;
 }
 
 .mem-content {
   height: 0;
   font-size: 0;
-  background-color: rgb(231, 231, 231);
+  background-color: #e7e7e7;
   width: 80%;
   margin: auto;
 }
@@ -89,7 +89,7 @@
 .key:active .key-header, 
 .key:active .key-header .mem-icon,
 .key:active .mem-content .mem-img {
-  color: blue !important;
+  color: #0000ff !important;
   opacity: 0.8;
 }
 
